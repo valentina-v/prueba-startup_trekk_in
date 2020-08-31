@@ -1,0 +1,49 @@
+.caracteristicas .container .row{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+
+  figure{
+    animation: aparecer 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+
+  }
+  article{
+    text-align: left;
+  }
+}
+.rotate {
+  animation: rotar 4s;
+  animation-timing-function: ease-in;
+}
+
+
+.precios{
+  background-image: url('../img/bg-price.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+  .container{
+  }
+
+  h2{
+  padding-top: 15rem;
+  color: $white;
+  }
+
+  h5{
+    padding-top: 3rem;
+  }
+
+}
+
+.precios .container .row{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 0px;
+}
+.card {
+  margin:30px;
+}

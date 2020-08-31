@@ -1,0 +1,19 @@
+@import
+'vendors/boostrap-4.3.1/bootstrap.scss';
+
+@import
+  'abstracts/variables',
+  'abstracts/mixins';
+@import
+  'base/base',
+  'base/reset',
+  'base/typography';
+
+@import
+  'layout/grid',
+  'layout/header',
+  'layout/section',
+  'layout/footer';
+@import
+  'components/navbar',
+  'components/buttons';

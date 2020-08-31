@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="318" height="165">
+  <g class="bar-graph">
+    <path class="a-bar" d="M10.9 53h34.8v108H10.9zM63.6 0h34.8v161H63.6zM116.3 32h34.8v129h-34.8z" fill="#EE9480"/>
+    <path class="b-bar" d="M168.9 53h34.8v108H168.9zM221.6 28h34.8v133h-34.8zM274.3 73h34.8v88h-34.8z" fill="#2AB7CA"/>
+    <path class="plane" d="M3 162.5h312.5" style="stroke-width:5;stroke:#979797"/>
+  </g>
+</svg>

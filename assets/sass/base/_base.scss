@@ -1,0 +1,31 @@
+
+body {
+    font-family: $raleway, $open-sans;
+    font-size: $large;
+    font-weight: $regular;
+    text-align: center;
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rotar {
+  from {
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

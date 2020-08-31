@@ -1,0 +1,54 @@
+.Navbar {
+  display: flex;
+  padding: 16px;
+  font-family: $raleway;
+  color: $raising-black;
+
+&__Link {
+  padding-right: 10px;
+  font-size: $small;
+}
+
+&__Items {
+  display: flex;
+}
+
+&__Items--right {
+  margin-left:auto;
+}
+
+&__Link-toggle {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+
+
+&__Items {
+    display:none;
+  }
+
+&__Items--right {
+    margin-left:0;
+  }
+
+&__ToggleShow {
+    display: flex;
+  }
+
+&__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   }
+   svg{
+    float: left;
+    margin-left: 15px;
+   }
+}
+}
